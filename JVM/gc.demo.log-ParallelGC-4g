@@ -1,0 +1,15 @@
+Java HotSpot(TM) 64-Bit Server VM (25.281-b09) for windows-amd64 JRE (1.8.0_281-b09), built on Dec  9 2020 13:54:07 by "" with MS VC++ 15.9 (VS2017)
+Memory: 4k page, physical 16650608k(9665832k free), swap 19140976k(10424636k free)
+CommandLine flags: -XX:InitialHeapSize=4294967296 -XX:MaxHeapSize=4294967296 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:-UseLargePagesIndividualAllocation -XX:+UseParallelGC 
+2021-05-24T10:06:49.355+0800: 0.459: [GC (Allocation Failure) [PSYoungGen: 1048576K->174588K(1223168K)] 1048576K->240080K(4019712K), 0.0441063 secs] [Times: user=0.11 sys=0.25, real=0.05 secs] 
+2021-05-24T10:06:49.560+0800: 0.663: [GC (Allocation Failure) [PSYoungGen: 1223164K->174584K(1223168K)] 1288656K->377150K(4019712K), 0.0575144 secs] [Times: user=0.14 sys=0.27, real=0.06 secs] 
+2021-05-24T10:06:49.775+0800: 0.879: [GC (Allocation Failure) [PSYoungGen: 1223160K->174575K(1223168K)] 1425726K->492443K(4019712K), 0.0563808 secs] [Times: user=0.22 sys=0.11, real=0.06 secs] 
+Heap
+ PSYoungGen      total 1223168K, used 1125702K [0x000000076ab00000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 1048576K, 90% used [0x000000076ab00000,0x00000007a4bd5ad8,0x00000007aab00000)
+  from space 174592K, 99% used [0x00000007aab00000,0x00000007b557bf38,0x00000007b5580000)
+  to   space 174592K, 0% used [0x00000007b5580000,0x00000007b5580000,0x00000007c0000000)
+ ParOldGen       total 2796544K, used 317867K [0x00000006c0000000, 0x000000076ab00000, 0x000000076ab00000)
+  object space 2796544K, 11% used [0x00000006c0000000,0x00000006d366acf0,0x000000076ab00000)
+ Metaspace       used 2623K, capacity 4486K, committed 4864K, reserved 1056768K
+  class space    used 288K, capacity 386K, committed 512K, reserved 1048576K
